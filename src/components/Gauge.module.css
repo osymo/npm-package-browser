@@ -1,0 +1,22 @@
+.gaugeWrapper {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.weak {
+    border: 1.9px solid red;
+}
+
+.mean {
+    border: 1.9px solid #f4633a;
+}
+
+.good {
+    border: 1.9px solid #09d3ac;
+}
