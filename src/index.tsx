@@ -15,7 +15,11 @@ ReactDOM.render(
           <Route path="/" element={<App />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About/>} />
-            <Route path="packages:packageName" element={<PackageDetails/>} />
+            
+            <Route path="packages" element={<PackageDetails/>}>
+              <Route path=":packageName" element={<PackageDetails/>} />
+            </Route>
+            
           </Route>
         </Routes>
       </BrowserRouter>
