@@ -1,3 +1,3 @@
-export * from  "./SearchResultItem"
-export * from "./Navbar"
-export * from "./Gauge"
+export * from "./Home"
+export * from "./About"
+export * from "./PackageDetails"
